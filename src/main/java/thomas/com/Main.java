@@ -1,5 +1,7 @@
 package thomas.com;
 
+import java.util.Arrays;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -50,5 +52,16 @@ public class Main {
             return nums[0] == nums[nums.length-1];
 
 
+    }
+
+//    Return an int array length 3 containing
+//    the first 3 digits of pi, {3, 1, 4}.
+//
+//
+//    makePi() → [3, 1, 4]
+
+    public int[] makePi(){
+        int[] nums = {3,1,4};
+        return nums;
     }
 }
